@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feet and meters</title>
+</head>
+<body>
+<script>
+    let foot = +prompt("Enter your length in foot: ")
+    let meter = +prompt("Enter your length in meter: ")
+
+    function footToMeters() {
+        meters = 0.305 * foot;
+        alert(meters);
+    }
+
+    function meterToFoot() {
+        feet = 3.279 * meter;
+        alert(feet);
+    }
+
+    footToMeters(foot);
+    meterToFoot(meter);
+</script>
+</body>
+</html>
